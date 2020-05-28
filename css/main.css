@@ -1,0 +1,246 @@
+body {
+    
+
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+section {
+    margin: -20px;
+}
+
+nav {
+
+    background: black;
+    width: 100%;
+    height: 70px;
+
+
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 10px;  
+    
+
+}
+
+
+
+
+button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+    background-color: black;
+    border: 0px;
+
+    
+}
+
+button img {
+    width: 35px;
+    height: 35px;
+}
+
+div#navbarNav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+    
+}
+
+@media screen and (max-width: 765px) {
+    button {
+        display: block;
+    }
+
+
+    div#navbarNav {
+        background-color: black;
+        width: 100%;
+        float: left;
+
+    }
+
+
+
+}
+
+.navbar-brand {
+    color: white;
+    margin-top: 4px;
+    margin-lef%: 10px;
+    font-size: 21px;
+}
+
+nav a {
+    font-size: 17px;
+}
+
+.nav-link {
+    color: white;
+    line-height: 4;
+    font-weight: ;
+    text-decoration: none;
+    
+}
+
+
+nav a:hover {
+    color: yellow;
+}
+
+
+li.active {
+    text-decoration: underline;
+    color: yellow;
+
+}
+
+
+img#slideshow {
+    width: 100%;
+    height: ;
+}
+
+
+
+/* Services css */
+
+.pservices {
+
+    color: blueviolet;
+}
+
+img#slideshow2 {
+    width: 100%;
+    margin-top: px;
+  
+}
+
+
+
+/* Portfolio css */
+
+img#portfolio-img, img#portfolio-img2, img#portfolio-img3 {
+    width: 90%;
+    height: 90%;
+    
+}
+
+
+a#pbutton, a#pbutton2, a#pbutton3 {
+    width: 100px;
+    height: 60px;
+    background: blue;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+}
+
+/* About Css */
+
+img#aboutimg {
+
+    width: 100%;
+    margin-top: px;
+}
+
+img#aboutimg2 {
+    width: 90%;
+    height: 90%;
+   
+
+}
+
+
+img#aboutimg3 {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.row {
+    padding: 40px;
+}
+
+
+
+a#aboutbutton, a#aboutbutton2 {
+    width: 100px;
+    height: 60px;
+    background: blue;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+    
+}
+
+
+
+/* Contact Css */
+
+
+h3#contacth3 {
+    color: black;
+}
+
+h4#contacth4 {
+    color: blue;
+}
+
+
+.form-control {
+
+    display: block;
+    width: 50%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: cadetblue;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid blue;
+    border-radius: .25rem;
+  
+}
+
+
+
+button#contactsubmit {
+    width: 130px;
+    height: 80px;
+    background: blue;
+    position: absolute;
+    padding: 10px;
+    color: cornsilk;
+
+}
+button#contactsubmit:hover {
+    background-color: crimson;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    background: black;
+    width: 100%;
+    height: 100px;
+}
+
+p#footer-text {
+    line-height: 5;
+    text-align: center;
+    color: white;
+
+
+}
+
